@@ -1,0 +1,104 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "caneta BIC",
+      "price": 5.89
+    },
+    {
+      "id": 2,
+      "name": "Noteboock Mac Pro",
+      "price": 12500.89
+    },
+    {
+      "id": 3,
+      "name": "Mouse Gamer",
+      "price": 120.89
+    }
+  ],
+  "site": [
+    {
+      "id": 14,
+      "version": 0,
+      "removed": false,
+      "name": "Estabelecimento Teste",
+      "specificId": "1273",
+      "shifts": [
+        {
+          "id": 1,
+          "version": 1,
+          "removed": false,
+          "label": "teste1",
+          "timeRestrictions": [
+            {
+              "id": 1,
+              "version": 0,
+              "removed": false,
+              "sunday": false,
+              "monday": false,
+              "tuesday": false,
+              "wednesday": false,
+              "thursday": true,
+              "friday": false,
+              "saturday": false,
+              "holiday": false,
+              "flexible": false,
+              "keepOpened": false,
+              "startTime": -2208893400000,
+              "finishTime": -2208894000000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "removed": false,
+      "label": "New Turn",
+      "timeRestrictions": [
+        {
+          "removed": false,
+          "sunday": false,
+          "monday": false,
+          "tuesday": false,
+          "wednesday": false,
+          "thursday": false,
+          "friday": false,
+          "saturday": false,
+          "holiday": false,
+          "flexible": false,
+          "keepOpened": false,
+          "startTimeString": "08:00",
+          "finishTimeString": "12:20"
+        }
+      ],
+      "id": 15
+    }
+  ],
+  "shifts": [
+    {
+      "id": 1,
+      "version": 1,
+      "removed": false,
+      "label": "teste1",
+      "timeRestrictions": [
+        {
+          "id": 1,
+          "version": 0,
+          "removed": false,
+          "sunday": false,
+          "monday": false,
+          "tuesday": false,
+          "wednesday": false,
+          "thursday": true,
+          "friday": false,
+          "saturday": false,
+          "holiday": false,
+          "flexible": false,
+          "keepOpened": false,
+          "startTime": -2208893400000,
+          "finishTime": -2208894000000
+        }
+      ]
+    }
+  ]
+}
